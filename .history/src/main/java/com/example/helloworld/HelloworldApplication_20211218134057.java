@@ -14,7 +14,7 @@ public class HelloworldApplication {
     class HelloworldController {
          @GetMapping("/")
           String hello() {
-             return "hello word！";
+             return "欢迎使用微信云托管！";
           }
     }
 
